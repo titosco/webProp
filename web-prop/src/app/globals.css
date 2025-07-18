@@ -1,3 +1,5 @@
+@tailwind utilities;
+
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -51,7 +53,7 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
+  --primary: oklch(23.9% 0.12 271.56);
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -121,5 +123,9 @@
   }
 }
 .menu_button{
-  @apply hover:text-blue-700 font-medium text-sm cursor-pointer;
+  @apply hover:text-primary font-medium text-sm cursor-pointer;
+}
+
+.text-shadow-custom {
+  text-shadow: 2px 2px 8px rgba(3 10 29 / 58%);
 }
