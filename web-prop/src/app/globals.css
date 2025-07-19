@@ -129,3 +129,22 @@
 .text-shadow-custom {
   text-shadow: 2px 2px 8px rgba(3 10 29 / 58%);
 }
+
+.card{
+  @apply bg-white overflow-hidden shadow-sm relative hover:shadow-lg mb-4;
+}
+.card-inner{
+  @apply w-full h-full relative;
+}
+.card-face{
+  @apply w-full h-full relative;
+}
+.img-front{
+  @apply w-full h-48 sm:h-56 object-cover hover:scale-105 duration-300;
+}
+.card-title{
+  @apply text-xl text-primary md:text-2xl font-semibold text-center;
+}
+.card-desc{
+  @apply flex text-primary text-sm gap-2 font-light mt-3;
+}
