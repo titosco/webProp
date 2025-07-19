@@ -1,5 +1,6 @@
 [build]
-
-  base = "webProp/web-prop"
-  publish = "build"        
+  base = "web-prop"
+  publish = "build"       
   command = "npm run build"
+
+
